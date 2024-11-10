@@ -11,6 +11,13 @@ This is a countdown timer built with JavaScript. The timer includes **Start** an
 
 ---
 
+### Demo
+
+![Timer Demo](https://media.giphy.com/media/PxnuTco84pKBx9l58n/giphy.gif)
+
+> The timer animation was created using SVG for smooth and scalable graphics.
+
+
 ## Getting Started
 
 Follow these instructions to set up and run the project on your local machine.
