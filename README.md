@@ -1,13 +1,15 @@
 # JavaScript Timer
 
-This is a countdown timer built with JavaScript. The timer includes **Start** and **Pause** buttons to control the countdown. This can serve as a basic tool for anyone looking to understand DOM manipulation, JavaScript intervals, and event handling.
+This project is a simple countdown timer built with JavaScript using an OOP approach. The timer includes **Start** and **Pause** buttons to control the countdown and utilizes SVG animations for a smooth visual experience.
 
 ## Features
 
 - **Start Button**: Starts the countdown.
 - **Pause Button**: Pauses the countdown.
+- **Customizable Callbacks**: Supports custom actions on start, tick, and completion of the timer.
 - **Easy to Use**: Clear UI with minimal controls.
 - **Responsive**: Works on both desktop and mobile.
+- **SVG Animation**: The timer animation was created using SVG for smooth and scalable graphics.
 
 ---
 
@@ -49,4 +51,9 @@ You will need a code editor (such as Visual Studio Code) and a web browser (like
 
 1. **Start the Timer**: Click the **Start** button to begin the countdown.
 2. **Pause the Timer**: Click the **Pause** button to pause the countdown.
-3. **Reset** (Optional): If a reset feature is available, click it to reset the timer back to the starting time.
+
+## Project Structure
+
+- **index.html**: Contains the HTML structure and layout for the timer.
+- **style.css**: Contains the CSS styles for the project, making it look clean and responsive.
+- **script.js**: Contains all the JavaScript logic, including the `Timer` class and event listeners.
